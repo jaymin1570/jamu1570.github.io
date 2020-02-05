@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif ;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 a{
     text-decoration: none !important;
@@ -44,6 +47,15 @@ i{
     background-size: 100% 100%;
     clip-path: polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0);
     position: relative;
+}
+
+.header img{
+    width: 300px;
+    height:60px !important;
+    /* filter:brightness(0.15); */
+    margin-top: -15px;
+    margin-bottom: -15px;
+    opacity: 2;
 }
 
 .header::before{
